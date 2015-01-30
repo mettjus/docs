@@ -4,9 +4,7 @@
 - [Dopo l'Installazione](#dopo-installazione)
 - [Accesso alle Impostazioni](#accesso-impostazioni)
 - [Configurazione dell'Ambiente](#configurazione-ambiente)
-- [Protecting Sensitive Configuration](#protecting-sensitive-configuration)
 - [Modalità di Manutenzione](#modalita-manutenzione)
-- [Pretty URLs](#pretty-urls)
 
 <a name="introduzione"></a>
 ## Introduzione
