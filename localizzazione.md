@@ -1,32 +1,32 @@
-# Localization
+# Localizzazione
 
-- [Introduction](#introduction)
-- [Language Files](#language-files)
-- [Basic Usage](#basic-usage)
-- [Pluralization](#pluralization)
-- [Validation Localization](#validation)
-- [Overriding Package Language Files](#overriding-package-language-files)
+- [Introduzione](#introduction)
+- [File delle lingue](#language-files)
+- [Utilizzo Base](#basic-usage)
+- [Pluralizazione](#pluralization)
+- [Localizzazione della Validazione](#validation)
+- [Eseguire l'override dei file di lingua di un pacchetto](#overriding-package-language-files)
 
 <a name="introduction"></a>
-## Introduction
+## Introduzione
 
-The Laravel `Lang` class provides a convenient way of retrieving strings in various languages, allowing you to easily support multiple languages within your application.
+La classe `Lang` di Laravel offre un modo conveniente di recuperare stringhe in varie lingue, consentendoti di supportare facilmente più lingue all'interno della tua applicazione.
 
 <a name="language-files"></a>
-## Language Files
+## File delle lingue
 
-Language strings are stored in files within the `app/lang` directory. Within this directory there should be a subdirectory for each language supported by the application.
+Le stringhe localizzate sono salvate in file all'interno della cartella `app/lang`. All'interno di questa cartella dovrebbe esserci una sottocartella per ogni lingua supportata dall'applicazione.
 
 	/app
 		/lang
 			/en
 				messages.php
-			/es
+			/it
 				messages.php
 
-#### Example Language File
+#### Esempio di file per una lingua
 
-Language files simply return an array of keyed strings. For example:
+I file delle lingue ritornano semplicemente un array di stringhe, ciascuna con una chiave. Per esempio:
 
 	<?php
 
@@ -34,7 +34,7 @@ Language files simply return an array of keyed strings. For example:
 		'welcome' => 'Welcome to our application'
 	);
 
-#### Changing The Default Language At Runtime
+#### Cambiare la lingua di default durante l'esecuzione
 
 The default language for your application is stored in the `app/config/app.php` configuration file. You may change the active language at any time using the `App::setLocale` method:
 
